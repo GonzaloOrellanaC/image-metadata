@@ -1,0 +1,159 @@
+.home-content {
+  background-color: #F7F3E9; /* Beige pastel */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upload-area {
+  border: 2px dashed #A8DADC; /* Verde pastel */
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  transition: background-color 0.3s, border-color 0.3s;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.upload-area:hover {
+  background-color: #F0F0F0;
+  border-color: #D4A574; /* Café pastel */
+}
+
+.upload-icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.upload-area p {
+  color: #D4A574; /* Café pastel */
+  font-size: 18px;
+}
+
+.loading, .error {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.metadata-section {
+  width: 100%;
+  max-width: 600px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.metadata-section h2 {
+  color: #A8DADC; /* Verde pastel */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ion-list {
+  background: transparent;
+}
+
+ion-item {
+  --background: #F7F3E9; /* Beige pastel */
+  --border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+ion-label h3 {
+  color: #D4A574; /* Café pastel */
+  font-weight: bold;
+}
+
+.image-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.uploaded-image {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.change-button {
+  background-color: #A8DADC;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.image-name {
+  text-align: center;
+  margin: 10px 0;
+  font-weight: bold;
+  color: #D4A574;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.clear-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.clear-button:hover {
+  background-color: #c0392b;
+}
+
+.service-info-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  margin: 20px 0;
+}
+
+.service-title {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.service-description {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.service-features {
+  font-size: 1em;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.service-note {
+  font-style: italic;
+  text-align: center;
+  font-size: 1em;
+}
