@@ -94,7 +94,7 @@ const Home: React.FC = () => {
     formData.append('photo', file);
 
     try {
-      const response = await fetch('http://localhost:5051/api/photo/metadata', {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/photo/metadata`, {
         method: 'POST',
         body: formData,
       });
